@@ -361,12 +361,12 @@ include_once '../model/CommentDetailsModel.php';
                         action: "changeStatus"
                     },
                     success: function (response) {
-                        alert(response);
-                        // var dataRes = JSON.parse(response);
-                        // alert(dataRes.message);
-                        // if (dataRes.statusCode == 200) {
-                        //     location.reload();
-                        // }
+                        //alert(response);
+                        var dataRes = JSON.parse(response);
+                        alert(dataRes.message);
+                        if (dataRes.statusCode == 200) {
+                            location.reload();
+                        }
                     }
                 });
             }

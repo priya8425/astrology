@@ -384,14 +384,11 @@
     </nav>
     <!-- Navbar End -->
     <!-- Carousel Start -->
-
     <div class="container-fluid p-0  wow fadeIn " data-wow-delay="0.1s" style="margin-top:-60px;">
-
         <div class="owl-carousel header-carousel position-relative ">
             <div class="owl-carousel-ite position-relative sliders" data-dot="<img src='img/solar-system.jpg'>">
                 <img class="img-fluid bg sliders d-none d-sm-block" src="img/solar-system.jpg" alt="">
                 <img class="img-fluid bg sliders d-lg-none d-xl-none" src="img/solar-system-mobile.jpg" alt="">
-
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
@@ -442,11 +439,8 @@
                         <img class="img-fluid" src="img/space2.jpg" alt="">
                     </div>
                 </div>
-
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-
                     <h2 class="section-title">Know <span>About us</span></h2>
-                    <!-- <h1 class="display-5 mb-4">A Creative Architecture Agency For Your Dream Home</h1> -->
                     <p>For centuries, humans have looked to the heavens, the position of stars and planets for their
                         guidance. Astrology is the study of the correlation between the astronomical positions of the
                         planets and events on earth.</p>
@@ -553,7 +547,7 @@
             ?>
                 <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
 
-                    <div class="card" style="border:none; ">
+                    <div class="card" style="border:none; overflow-wrap:auto;">
                         <?php if($value['file_type']=="image"){
                                     ?><img src="admin/<?=$value['image_file_path'];?>" style="height:230px;"><?php
                         }elseif($value['file_type']=="video"){

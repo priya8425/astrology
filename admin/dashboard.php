@@ -29,7 +29,7 @@ session_start();
 
 </head>
 
-<body class="hold-transition sidebar-mini layout-fixed">
+<body class="hold-transition ">
   <div class="wrapper">
 
     <!-- Preloader -->
@@ -39,14 +39,13 @@ session_start();
 
     <!-- Navbar -->
     <?php
-      include("topnavbar.php");
-    ?>
+            include("topnavbar.php");
+        ?>
     <!-- /.navbar -->
 
     <?php
-      include("sidenavbar.php");
-    ?>
-
+            include("sidenavbar.php");
+        ?>
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
       <!-- Content Header (Page header) -->
@@ -143,20 +142,10 @@ session_start();
     <?php 
       include("footer.php");
     ?>
-    <!-- Control Sidebar -->
-    <aside class="control-sidebar control-sidebar-dark">
-      <!-- Control sidebar content goes here -->
-    </aside>
-    <!-- /.control-sidebar -->
-  </div>
-  <!-- ./wrapper -->
 
-  <!-- AdminLTE App -->
-  <script src="dist/js/adminlte.js"></script>
-  <!-- AdminLTE for demo purposes -->
-  <script src="dist/js/demo.js"></script>
-  <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-  <!-- <script src="dist/js/pages/dashboard.js"></script> -->
+
+  </div>
+
 </body>
 
 </html>

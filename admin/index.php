@@ -43,7 +43,8 @@ session_start();
             <input type="password" class="form-control" name="password" id="password" placeholder="Password">
             <div class="input-group-append password">
               <div class="input-group-text password">
-                <span class="fas fa-lock"></span>
+                <span class="fas fa-lock"></span>&emsp;
+                <a href="#"><span class="fas fa-eye"  class="btn btn-sm" onclick="myFunction()"></span></a>
               </div>
             </div>
           </div>
@@ -51,7 +52,7 @@ session_start();
             <div class="col-7"></div>
             <div class="col-5 text-right">
               <p class="mb-1">
-                <a href="#" data-toggle="modal" data-target="#modal-default">forget password</a>
+                <a href="#" data-toggle="modal" data-target="#modal-default">Forget password</a>
               </p>
             </div>
           </div>
@@ -70,7 +71,7 @@ session_start();
       </div>
       <div class="card-footer text-center">
         <small>Copyright &copy; <?=date("Y");?>-<?=date('y',strtotime(date("Y", time()) . " + 1 year"));?> <a
-            href="#">e-Training</a>
+            href="#"></a>
           &reg;. Created By <a href="https://marcksitservices.com/" target="_blanck">Marcks Training & IT
             Services</a></small>
       </div>
@@ -185,7 +186,7 @@ session_start();
             if (dataRes.statusCode == 200) {
               setTimeout(function () {
                 window.location = "dashboard.php";
-              }, 2000);
+              }, 1000);
             }
             $('#loginBtn').html('Sign In');
             $('#loginBtn').prop('disabled', false);
@@ -284,6 +285,25 @@ session_start();
         });
       }
     });
+
+    function show() {
+      var p = document.getElementById('password');
+      p.setAttribute('type', 'text');
+    }
+
+    function hide() {
+      var p = document.getElementById('password');
+      p.setAttribute('type', 'password');
+    }
+
+    function myFunction() {
+      var x = document.getElementById("password");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
   </script>
 </body>
 
