@@ -319,14 +319,14 @@
     <div class="container-fluid p-0 pb-5 wow fadeIn " data-wow-delay="0.1s" style="margin-top:-60px;">
 
         <div class="owl-carousel header-carousel position-relative ">
-            <div class="owl-carousel-ite position-relative sliders" data-dot="<img src='img/galaxyimage2.jpg'>">
-                <img class="img-fluid bg" src="img/galaxyimage2.jpg" alt="" style="height:100%; width:auto;">
+            <div class="owl-carousel-ite position-relative sliders" data-dot="<img src='img/banner1.jpg'>">
+                <img class="img-fluid bg" src="img/banner1.jpg" alt="" style="height:100%; width:auto;">
 
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-md-5 col-lg-5 col-sm-3">
-                                <img class="img-fluid position-relative h-100 rotate" src="img/circle4.jpeg" alt="">
+                                <img class="img-fluid position-relative h-100 rotate" src="img/PngItem.png" alt="">
                             </div>
                             <div class="col-md-1 col-lg-1"></div>
                             <div class="col-md-6 col-lg-6 col-sm-3 stext">

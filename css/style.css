@@ -1,6 +1,6 @@
 /********** Template CSS d96c06 1d407e d96c06**********/
 :root {
-    --primary: #d96c06;
+    --primary: #ff7b00;
     --light: #F8F8F8;
     --dark: #252525;
 }
@@ -176,7 +176,7 @@ p{
     left: 0;
     display: flex;
     align-items: center;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .8);
 }
 
 @media (max-width: 768px) {
@@ -200,7 +200,7 @@ p{
 .header-carousel .owl-dots {
     position: absolute;
     width: 60px;
-    height: 100%;
+    height: 10%;
     top: 0;
     right: 30px;
     display: flex;
@@ -522,7 +522,7 @@ p{
     left: 0;
     display: flex;
     align-items: center;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0, .3);
 }
 
 @media (max-width: 768px) {

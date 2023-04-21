@@ -5,6 +5,7 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>Astrology</title>
@@ -16,7 +17,8 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap"
         rel="stylesheet">
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -36,6 +38,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"> -->
     <style>
         .navbar.scrolled {
             background-color: black;
@@ -47,6 +52,7 @@
             max-width: 400px;
 
             height: auto;
+
         }
 
         @media (min-width: 768px) {
@@ -56,9 +62,6 @@
                 width: 5px;
                 /* set the width to auto to allow the image to scale */
                 height: 100%;
-                margin-top: -350px;
-
-                margin-left: 200%;
                 /* set the height to 100% to fill the container */
                 transform-origin: center center;
                 /* set the origin of the rotation to the center of the image */
@@ -69,7 +72,7 @@
             }
         }
 
-        @media (max-width: 768px) {
+        @media (max-width: 992px) {
             .rotate {
                 max-width: none;
                 /* remove the maximum width constraint */
@@ -97,82 +100,13 @@
             }
         }
 
-        .swastik {
-            width: 100%;
-
-            max-width: 400px;
-
-            height: auto;
-
-        }
-
-        @media (min-width: 768px) {
-            .swastik {
-                max-width: none;
-                /* remove the maximum width constraint */
-                width: 5px;
-                /* set the width to auto to allow the image to scale */
-                height: 100%;
-                margin-top: -170px;
-                margin-left: -70px;
-
-            }
-        }
-
-        @media (max-width: 992px) {
-            .swastik {
-                max-width: none;
-                /* remove the maximum width constraint */
-                width: auto;
-                /* set the width to auto to allow the image to scale */
-                height: 20%;
-
-                /* set the height to 100% to fill the container */
-                transform-origin: center center;
-                /* set the origin of the rotation to the center of the image */
-            }
-        }
-
-        .om {
-            width: 100%;
-
-            max-width: 400px;
-
-            height: auto;
-        }
-
-        @media (min-width: 768px) {
-            .om {
-
-                /* remove the maximum width constraint */
-
-                /* set the width to auto to allow the image to scale */
-                display: block;
-                margin-top: -500px;
-                margin-left: 100%;
-                margin-right: 100%;
-            }
-        }
-
-        @media (max-width: 992px) {
-            .om {
-                max-width: none;
-                /* remove the maximum width constraint */
-                width: auto;
-                /* set the width to auto to allow the image to scale */
-                height: 100%;
-
-                /* set the height to 100% to fill the container */
-                transform-origin: center center;
-                /* set the origin of the rotation to the center of the image */
-            }
-        }
 
         @media (min-width: 768px) {
             .bg {
                 margin-top: -50px;
             }
         }
+
         /* body {
 
             background-image: linear-gradient(to right, #190034, #310144);
@@ -252,13 +186,14 @@
         }
 
         .mob {
-            font-size: 95px;
+            font-size: 50px;
 
         }
 
         .mob1 {
-            font-size: 55px;
+            font-size: 45px;
         }
+
         .mob2 {
             font-size: 23px;
         }
@@ -274,32 +209,22 @@
 
             .mob {
                 width: 100%;
-                font-size: 20px;
+                font-size: 25px;
             }
 
             .mob1 {
-                font-size: 15px;
+                font-size: 20px;
+                margin-right:2px;
             }
 
             .mob2 {
-                font-size: 13px;
+                font-size: 19px;
             }
         }
 
-        .slider {
-            width: 100%;
-            height: 100%;
-        }
-
-        @media (min-width: 768px) {
+        @media only screen and (max-width: 768px) {
             .sliders {
-                height: 940px;
-            }
-        }
-
-        @media (max-width: 992px) {
-            .sliders {
-                height: 440px;
+                height: 630px;
             }
         }
 
@@ -310,6 +235,7 @@
                 display: flex;
                 margin-left: 580px;
             }
+
             .wrapper .owl-dot {
                 height: 10px;
                 width: 35px;
@@ -320,10 +246,19 @@
                 box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
                 transition: all 0.3s ease;
             }
+
             .wrapper .owl-dot.active,
             .wrapper .owl-dot:hover {
                 background: white !important;
             }
+        }
+
+
+        .word {
+            margin: auto;
+            color: white;
+            font: 650 normal 2.5em 'tahoma';
+            /* text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324; */
         }
     </style>
 </head>
@@ -366,7 +301,7 @@
     <nav class="navbar navbar-expand-lg navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn " data-wow-delay="0.1s"
         style="height: 60px;">
         <a href="index.php" class="navbar-brand ms-4 ms-lg-0">
-            <h1 class="text-light m-0">Astrology</h1>
+            <h3 class="text-light m-0">Astrology</h3>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"><img src="img/menu.png" style="height:40px;"></span>
@@ -384,41 +319,99 @@
     </nav>
     <!-- Navbar End -->
     <!-- Carousel Start -->
-    <div class="container-fluid p-0  wow fadeIn " data-wow-delay="0.1s" style="margin-top:-60px;">
+    <div class="container-fluid p-0 pb-5 wow fadeIn " data-wow-delay="0.1s" style="margin-top:-60px;">
+        <!-- <div class="owl-carousel-ite position-relative sliders" data-dot="<img src='img/6.jpeg'>">
+            <img class="img-fluid bg" src="img/6.jpeg" alt="" style="height:100%; width:100%;">
+
+            <div class="owl-carousel-inner">
+                <div class="container d-lg-none d-xl-none">
+                    <div class="row justify-content-start">
+                        <div class="col-md-5 col-lg-5 col-sm-3">
+                            <img class="img-fluid position-relative h-100 rotate" src="img/PngItem.png" alt="">
+                        </div>
+
+                        <div class="col-md-7 col-lg-7 col-sm-3 stext">
+                            <h4 class="mob" style=" color:white;">Worried about your future?</h4>
+                            <h5 class="mob1" style="color:#ff7b00">Know your future in 30 seconds.</h5>
+                            <h6 class="mob2" style="color:white;"><b>Astrology is an ancient concept and an
+                                    important aspect of our
+                                    lives, our past, present and future.</b></h6>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="container d-none d-sm-block" style="">
+                    <div class="row justify-content-start">
+                        <div class="col-md-3 col-lg-3 col-sm-3 stext" style="margin-top:-30px;;">
+                           
+                            <h5 class="mob" style=" color:white;">Worried about your future?</h5>
+                            <h6 class="mob1" style="color:#ff7b00">Know your future in 30 seconds.</h6>
+                            <h6 class="mob2" style="color:white;"><b>Astrology is an ancient concept and an
+                                    important aspect of our
+                                    lives, our past, present and future.</b></h6>
+                        </div>
+
+                        <div class="col-md-4 col-lg-4 col-sm-3">
+                            <img class="img-fluid position-relative rotate" src="img/PngItem.png" alt=""
+                                style="height:500px; width:500px; margin-left:78px; margin-top:-80px;">
+                        </div>
+
+                        <div class="col-md-3 col-lg-3 col-sm-3 stext">
+                            <img class="" src="img/om.png" alt=""
+                                style="height:250px;width:250px; margin-left:300px; margin-top:-250px;">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div> -->
         <div class="owl-carousel header-carousel position-relative ">
-            <div class="owl-carousel-ite position-relative sliders" data-dot="<img src='img/solar-system.jpg'>">
-                <img class="img-fluid bg sliders d-none d-sm-block" src="img/solar-system.jpg" alt="">
-                <img class="img-fluid bg sliders d-lg-none d-xl-none" src="img/solar-system-mobile.jpg" alt="">
+            <div class="owl-carousel-ite position-relative sliders" data-dot="<img src='img/3.jpeg'>">
+                <img class="img-fluid bg d-none d-sm-block" src="img/3.jpeg" alt="" style="height:100%; width:100%;">
+                <img class="img-fluid bg  d-lg-none d-xl-none" src="img/6.jpeg" alt="" style="height:100%; width:100%;">
+
                 <div class="owl-carousel-inner">
-                    <div class="container">
+                    <div class="container d-lg-none d-xl-none">
                         <div class="row justify-content-start">
+
                             <div class="col-md-5 col-lg-5 col-sm-3">
-                                <img class="img-fluid position-relative rotate d-none d-sm-block" src="img/PngItem.png"
-                                    style="height:300px; width:300px; opacity:0.4;" alt="">
-                                <img class="img-fluid position-relative rotate d-lg-none d-xl-none"
-                                    src="img/PngItem.png"
-                                    style="height:200px; width:200px; opacity:0.4; margin-left:90px; margin-top:-50px;"
-                                    alt="">
-                                <img class="img-fluid position-relative swastik d-none d-sm-block" src="img/ganesha.png"
-                                    style="height:300px; width:300px; opacity:0.4;" alt="">
-                                <img class="img-fluid position-relative om d-none d-sm-block" src="img/om.png"
-                                    style="height:300px; width:300px; opacity:0.5;" alt="">
+                                <img class="img-fluid position-relative h-100 rotate" src="img/PngItem.png" alt="">
                             </div>
-                            <div class="col-md-1 col-lg-1"></div>
-                            <div class="col-md-6 col-lg-6 col-sm-3 stext  d-lg-none d-xl-none " style="">
-                                <h3 class="mob" style=" color:white;">Worried about your future?</h3>
-                                <h5 class="mob1" style="color:#d96c06">Know your future in 30 seconds.</h5>
+
+                            <div class="col-md-7 col-lg-7 col-sm-3 stext">
+                                <h4 class="mob" style=" color:white;">Worried about your future?</h4>
+                                <h5 class="mob1" style="color:#FF7029;"><b>"Unlock the mysteries of the stars and
+                                        discover your cosmic destiny with astrology."</b></h5>
                                 <h6 class="mob2" style="color:white;"><b>Astrology is an ancient concept and an
                                         important aspect of our
                                         lives, our past, present and future.</b></h6>
                             </div>
-                            <div class="col-md-6 col-lg-6 col-sm-3 stext d-none d-sm-block"
-                                style="background-color:rgba(0,0,0,0.3);margin-top:-150px; margin-left:-250px;">
-                                <h3 class="" style=" color:white;">Worried about your future?</h3>
-                                <h4 class="" style="color:#d96c06">Know your future in 30 seconds.</h4>
-                                <h5 class="" style="color:white;"><b>Astrology is an ancient concept and an
+
+                        </div>
+                    </div>
+                    <div class="container d-none d-sm-block" style="">
+
+                        <div class="row justify-content-start">
+                            <div class="col-md-3 col-lg-3 col-sm-3 stext">
+                                <img class="" src="img/om.png" alt=""
+                                    style="height:250px;width:250px; margin-top:-410px;">
+                                <br>
+                                <h5 class="mob mt-5" style=" color:white;">Worried about your future?</h5><br>
+                                <h6 class="mob2" style="color:white;"><b>Astrology is an ancient concept and an
                                         important aspect of our
-                                        lives, our past, present and future.</b></h5>
+                                        lives, our past, present and future.</b></h6>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 col-sm-3">
+                                <img class="img-fluid position-relative rotate" src="img/PngItem.png" alt=""
+                                    style="height:500px; width:500px; margin-left:78px; margin-top:-90px;">
+                            </div>
+                            <div class="col-md-3 col-lg-3 col-sm-3 stext" style="margin-top:-30px; margin-left:200px;">
+
+                                <div class="word mt-5"></div>
+                                <!-- <h6 class="mob1 mt-5 word" style="color:black">"Unlock the mysteries of the stars </h6>
+                                <h2 class="">and discover your cosmic destiny with astrology."</h2> -->
+
                             </div>
                         </div>
                     </div>
@@ -492,7 +485,7 @@
                         <h3 style="padding:10px;">Career Guidance</h3>
                     </div>
                     <div class="card card-5" style="height:55vh; width:auto;"> <img class="img-fluid"
-                            src="img/healthastro.jpg" style="height:40vh;" alt="">
+                            src="img/health1.png" style="height:40vh;" alt="">
                         <h3 style="padding:10px;">Health</h3>
                     </div>
                     <div class="card card-6" style="height:55vh; width:auto;"> <img class="img-fluid"
@@ -500,15 +493,15 @@
                         <h3 style="padding:10px;">Education</h3>
                     </div>
                     <div class="card card-7" style="height:55vh; width:auto;"> <img class="img-fluid"
-                            src="img/job-astro.jpg" style="height:40vh;" alt="">
+                            src="img/business.jpg" style="height:40vh;" alt="">
                         <h3 style="padding:10px;">Job / Business Possibilities</h3>
                     </div>
                     <div class="card card-8" style="height:55vh; width:auto;"> <img class="img-fluid"
-                            src="img/gemstone.jpg" style="height:40vh;" alt="">
+                            src="img/gemstones.jpg" style="height:40vh;" alt="">
                         <h3 style="padding:10px;">Effective Remedies and Gem stone Guidance.</h3>
                     </div>
-                    <div class="card card-9" style="height:55vh; width:auto;"> <img class="img-fluid" src="img/palm.jpg"
-                            style="height:40vh;" alt="">
+                    <div class="card card-9" style="height:55vh; width:auto;"> <img class="img-fluid"
+                            src="img/horaryastro.png" style="height:40vh;" alt="">
                         <h3 style="padding:10px;">Horary astrology.</h3>
                     </div>
                     <div class="card card-10" style="height:55vh; width:auto;"> <img class="img-fluid"
@@ -516,7 +509,7 @@
                         <h3 style="padding:10px;">Birth Time Rectification</h3>
                     </div>
                     <div class="card card-11" style="height:55vh; width:auto;"> <img class="img-fluid"
-                            src="img/education-astro.jpg" style="height:40vh;" alt="">
+                            src="img/book.jpg" style="height:40vh;" alt="">
                         <h3 style="padding:10px;">Astro Siddhis Library</h3>
                     </div>
                     <div class="card card-12" style="height:55vh; width:auto;"> <img class="img-fluid"
@@ -688,7 +681,8 @@
     <!-- Project End -->
 
     <!-- Testimonial Start -->
-    <div class="container-xlg py-5" style="background-image:url('img/astrology-wallpaper4.jpg');background-color:#d96c06; height:auto; width:100%;opacity: 1.9; margin-top:-10px;">
+    <div class="container-xlg py-5"
+        style="background-image:url('img/banner.jpg');background-color:#d96c06; height:auto; width:100%;opacity: 1.9; margin-top:-10px;">
         <div class="container mt-2" style="background-color:rgba(0,0,0,0.2);">
             <div class="text-center mx-auto  wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title" style="color:#fffffb">Testimonial</h4>
@@ -696,7 +690,7 @@
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s"
                 style="background-color:transparent;">
-                    <?php
+                <?php
                         $TestimonialDetails=$testimonialObj->getAllActiveTestimonialDetailsById();
                         if ($TestimonialDetails==false){
 
@@ -976,10 +970,7 @@
                     $('#addtestimonialBtn').prop('disabled', false);
                 }
             });
-
-
         });
-
 
         $("#addcontactBtn").on("click", function () {
             var name = $("#name").val();
@@ -1022,7 +1013,51 @@
                     }
                 });
             }
+        });
 
+        var words = ['Unlock the mysteries of the stars and discover your cosmic destiny with astrology.'],
+            part,
+            i = 0,
+            offset = 0,
+            len = words.length,
+            forwards = true,
+            skip_count = 0,
+            skip_delay = 15,
+            speed = 90;
+        var wordflick = function () {
+            setInterval(function () {
+                if (forwards) {
+                    if (offset >= words[i].length) {
+                        ++skip_count;
+                        if (skip_count == skip_delay) {
+                            forwards = false;
+                            skip_count = 0;
+                        }
+                    }
+                } else {
+                    if (offset == 0) {
+                        forwards = true;
+                        i++;
+                        offset = 0;
+                        if (i >= len) {
+                            i = 0;
+                        }
+                    }
+                }
+                part = words[i].substr(0, offset);
+                if (skip_count == 0) {
+                    if (forwards) {
+                        offset++;
+                    } else {
+                        // offset--;
+                    }
+                }
+                $('.word').text(part);
+            }, speed);
+        };
+
+        $(document).ready(function () {
+            wordflick();
         });
     </script>
 </body>

@@ -154,25 +154,22 @@
                                 if ($CommentDetails==false){
 
                                 }else{
-                                    foreach ($CommentDetails as $key => $value) {
-                                    ?><div class="row g-5">
-                                    <div class="col-lg-12">
-                                        <div class="card">
-                                            <div class="row">
-                                                
-                                                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s" style=" padding:20px;">
-                                                    <h2 style="color:#d96c06;"><?=$value['comment_by'];?></h2>
-                                                    <p style="color:black;"><?=$value['comment_message'];?>
-                                                    </p>
-                                                  
+                                        ?><div class="row g-5">
+                                        <div class="col-lg-12">
+                                            <div class="card">
+                                                <div class="row">
+                                                    
+                                                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s" style=" padding:20px;">
+                                                        <h2 style="color:#d96c06;"><?=$value['comment_by'];?></h2>
+                                                        <p style="color:black;"><?=$value['comment_message'];?>
+                                                        </p>
+                                                    </div>
                                                 </div>
-                                                
+                        
                                             </div>
-                    
                                         </div>
-                                    </div>
-                                </div>  <?php             
-                                
+                                    </div>  <?php    
+                                    foreach ($CommentDetails as $key => $value) {        
                     ?>
             
                     <?php

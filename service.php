@@ -164,7 +164,7 @@
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h2 class="section-title">Our Services</h2>
-                <h4 class=" mb-4" style="color:#310144;">What do you get from ASTRO SIDDHIS</h4>
+                <h4 class=" mb-4" style="color:#af0945">What do you get from ASTRO SIDDHIS</h4>
             </div>
             <div class="wrapper">
                 <div class="carousel owl-carousel">
@@ -185,7 +185,7 @@
                         <h3 style="padding:10px;">Career Guidance</h3>
                     </div>
                     <div class="card card-5" style="height:55vh; width:auto;"> <img class="img-fluid"
-                            src="img/healthastro.jpg" style="height:40vh;" alt="">
+                            src="img/health1.png" style="height:40vh;" alt="">
                         <h3 style="padding:10px;">Health</h3>
                     </div>
                     <div class="card card-6" style="height:55vh; width:auto;"> <img class="img-fluid"
@@ -193,14 +193,14 @@
                         <h3 style="padding:10px;">Education</h3>
                     </div>
                     <div class="card card-7" style="height:55vh; width:auto;"> <img class="img-fluid"
-                            src="img/job-astro.jpg" style="height:40vh;" alt="">
+                            src="img/business.jpg" style="height:40vh;" alt="">
                         <h3 style="padding:10px;">Job / Business Possibilities</h3>
                     </div>
                     <div class="card card-8" style="height:55vh; width:auto;"> <img class="img-fluid"
-                            src="img/gemstone.jpg" style="height:40vh;" alt="">
+                            src="img/gemstones.jpg" style="height:40vh;" alt="">
                         <h3 style="padding:10px;">Effective Remedies and Gem stone Guidance.</h3>
                     </div>
-                    <div class="card card-9" style="height:55vh; width:auto;"> <img class="img-fluid" src="img/palm.jpg"
+                    <div class="card card-9" style="height:55vh; width:auto;"> <img class="img-fluid" src="img/horaryastro.png"
                             style="height:40vh;" alt="">
                         <h3 style="padding:10px;">Horary astrology.</h3>
                     </div>
@@ -209,7 +209,7 @@
                         <h3 style="padding:10px;">Birth Time Rectification</h3>
                     </div>
                     <div class="card card-11" style="height:55vh; width:auto;"> <img class="img-fluid"
-                            src="img/education-astro.jpg" style="height:40vh;" alt="">
+                            src="img/book.jpg" style="height:40vh;" alt="">
                         <h3 style="padding:10px;">Astro Siddhis Library</h3>
                     </div>
                     <div class="card card-12" style="height:55vh; width:auto;"> <img class="img-fluid"
@@ -225,8 +225,8 @@
     <div class="container-xxl py-5" style="margin-top:-50px;">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="section-title">Erat ipsum justo amet duo</h4>
-                <h1 class="display-5 mb-4">Lorem Ipsum is simply dummy</h1>
+                <!-- <h4 class="section-title">Erat ipsum justo amet duo</h4>
+                <h1 class="display-5 mb-4">Lorem Ipsum is simply dummy</h1> -->
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -235,8 +235,7 @@
                         <div class="service-text p-5">
                             <img class="mb-4" src="img/ariesicon.png" alt="Icon" style="height:50px;">
                             <h3 class="mb-3">Aries (Mesh)</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                stet diam sed stet.</p>
+                            <p class="mb-4">Aries loves to be number one, so it’s no surprise that these audacious rams are the first sign of the zodiac. Bold and ambitious, Aries dives headfirst into even the most challenging situations</p>
                             <!-- <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a> -->
                         </div>
                     </div>
@@ -247,8 +246,7 @@
                         <div class="service-text p-5">
                             <img class="mb-4" src="img/taurusicon.png" alt="Icon" style="height:50px;">
                             <h3 class="mb-3">Taurus (Vrushabh)</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                stet diam sed stet.</p>
+                            <p class="mb-4">In astrology, Taurus is the second sign of the zodiac, considered as governing that portion of the year from about April 20 to about May 20. Its representation as a bull is related to the Greek myth of Zeus.</p>
                         </div>
                     </div>
                 </div>
@@ -258,8 +256,7 @@
                         <div class="service-text p-5">
                             <img class="mb-4" src="img/geminiicon.png" alt="Icon" style="height:50px;">
                             <h3 class="mb-3">Gemini (Mithun)</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                stet diam sed stet.</p>
+                            <p class="mb-4">Gemini is accordingly excellent at guiding change and transformation. These curious twins are terrific pioneers, using their energy to spearhead innovative creative projects. A fearless thinker, Gemini is always down to try something new.</p>
                         </div>
                     </div>
                 </div>
@@ -269,8 +266,7 @@
                         <div class="service-text p-5">
                             <img class="mb-4" src="img/cancericon.png" alt="Icon" style="height:50px;">
                             <h3 class="mb-3">Cancer (Karka)</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                stet diam sed stet.</p>
+                            <p class="mb-4">Cancer is the cardinal sign of the Water trigon, which is made up of Cancer, Pisces, and Scorpio. It is one of the six negative signs, and its ruling planet is the Moon.</p>
                         </div>
                     </div>
                 </div>
@@ -280,8 +276,7 @@
                         <div class="service-text p-5">
                             <img class="mb-4" src="img/leoicon.png" alt="Icon" style="height:50px;">
                             <h3 class="mb-3">Leo (Sinh)</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                stet diam sed stet.</p>
+                            <p class="mb-4">The constellation Leo is associated with the mythological Nemean lion. The lion is a very important and prominent symbol in Greek mythology.</p>
                         </div>
                     </div>
                 </div>
@@ -291,8 +286,7 @@
                         <div class="service-text p-5">
                             <img class="mb-4" src="img/virgoicon.png" alt="Icon" style="height:50px;">
                             <h3 class="mb-3">Virgo (Kanya)</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                stet diam sed stet.</p>
+                            <p class="mb-4">Virgo is the sixth sign of the zodiac, considered as governing the period from about August 23 to about September 22. It is represented as a young maiden carrying a sheaf of wheat.</p>
                         </div>
                     </div>
                 </div>
@@ -302,8 +296,7 @@
                         <div class="service-text p-5">
                             <img class="mb-4" src="img/libraicon.png" alt="Icon" style="height:50px;">
                             <h3 class="mb-3">Libra (Tula)</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                stet diam sed stet.</p>
+                            <p class="mb-4">Libra is the seventh sign of the zodiac, considered as governing the period from about September 22 to about October 23. It is represented by a woman holding a balance scale or by the balance alone.</p>
                         </div>
                     </div>
                 </div>
@@ -313,8 +306,7 @@
                         <div class="service-text p-5">
                             <img class="mb-4" src="img/scorpianicon.jpg" alt="Icon" style="height:50px;">
                             <h3 class="mb-3">Scorpio (Vrushchik)</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                stet diam sed stet.</p>
+                            <p class="mb-4">Scorpio is one of the water signs, the others being Cancer and Pisces. It is a fixed, negative sign. Scorpio is associated with three different animals: the scorpion, the snake, and the eagle.</p>
                         </div>
                     </div>
                 </div>
@@ -324,8 +316,7 @@
                         <div class="service-text p-5">
                             <img class="mb-4" src="img/Sagittariusicon.png" alt="Icon" style="height:50px;">
                             <h3 class="mb-3">Sagittarius (Dhanu)</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                stet diam sed stet.</p>
+                            <p class="mb-4">the ninth astrological sign, which is associated with the constellation Sagittarius and spans 240–270th degrees of the zodiac.</p>
                         </div>
                     </div>
                 </div>
@@ -335,8 +326,7 @@
                         <div class="service-text p-5">
                             <img class="mb-4" src="img/capricornicon.png" alt="Icon" style="height:50px;">
                             <h3 class="mb-3">Capricorn (Makar)</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                stet diam sed stet.</p>
+                            <p class="mb-4">Capricorn is considered an earth sign, negative sign, and one of the four cardinal signs. Capricorn is said to be ruled by the planet Saturn.</p>
                         </div>
                     </div>
                 </div>
@@ -346,8 +336,7 @@
                         <div class="service-text p-5">
                             <img class="mb-4" src="img/aquariusicon.png" alt="Icon" style="height:50px;">
                             <h3 class="mb-3">Aquarius (Kumbha)</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                stet diam sed stet.</p>
+                            <p class="mb-4">the eleventh astrological sign in the zodiac, originating from the constellation Aquarius.</p>
                         </div>
                     </div>
                 </div>
@@ -357,8 +346,7 @@
                         <div class="service-text p-5">
                             <img class="mb-4" src="img/piscesicon.png" alt="Icon" style="height:50px;">
                             <h3 class="mb-3">Pisces (Meen)</h3>
-                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam
-                                stet diam sed stet.</p>
+                            <p class="mb-4">the twelfth and final astrological sign in the zodiac. It is a negative, mutable sign. It spans 330° to 360° of celestial longitude. </p>
                         </div>
                     </div>
                 </div>
