@@ -86,7 +86,14 @@
               </li>
             </ul>
           </li> -->
-
+          <li class="nav-item">
+          <a href="CommentDetails.php" class="nav-link">
+            <i class="nav-icon fas fa-chart-pie"></i>
+            <p>
+              Comment Details
+            </p>
+          </a>
+        </li>
         <li class="nav-item">
           <a href="ContactDetails.php" class="nav-link">
             <i class="fas fa-phone nav-icon"></i>
@@ -102,7 +109,6 @@
               Appointment Details
             </p>
           </a>
-
         </li>
       </ul>
     </nav>
