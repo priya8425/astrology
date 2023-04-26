@@ -30,6 +30,15 @@ class TestimonialDetails extends DbConnection{
 			return $data;
 		}
 	}
+
+	/*Get All Appointment Details count*/
+	function gettestimonialDetailsbycount(){
+		$sql="SELECT COUNT(*) as testimonial FROM testimonials_details"; 
+		$result=$this->conn->query($sql) or die($this->conn->error);
+		$row=$result->fetch_assoc();
+		return $row['testimonial'];
+	}
+
 	function getAllActiveTestimonialDetailsById(){
 		
 		$sql="SELECT * FROM testimonials_details WHERE testimonial_status='Active'";

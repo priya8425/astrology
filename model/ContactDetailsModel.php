@@ -31,6 +31,15 @@ class ContactDetails extends DbConnection{
 		}
 	}
 
+	/*Get All Appointment Details count*/
+	function getcontactDetailsbycount(){
+		$sql="SELECT COUNT(*) as contact FROM contact_details"; 
+		$result=$this->conn->query($sql) or die($this->conn->error);
+		$row=$result->fetch_assoc();
+		return $row['contact'];
+	}
+
+
 	/*Delete Contact Details*/
 	function deleteContactDetails($id){
 		$sql="DELETE FROM contact_details WHERE id=$id";

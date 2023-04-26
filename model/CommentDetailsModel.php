@@ -28,6 +28,14 @@ class CommentDetails extends DbConnection{
 			return $data;
 		}
 	}
+ 
+	/*Get All comment Details count*/
+	function getCommentbycount(){
+		$sql="SELECT COUNT(*) as comments FROM comment_details"; 
+		$result=$this->conn->query($sql) or die($this->conn->error);
+		$row=$result->fetch_assoc();
+		return $row['comments'];
+	}
 
 	/*Delete Comment Details*/
 	function deleteCommentDetails($id){

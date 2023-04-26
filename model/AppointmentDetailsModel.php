@@ -17,7 +17,7 @@ class AppointmentDetails extends DbConnection{
 		}
 	}
 
-	/*Get All contact Details*/
+	/*Get All Appointment Details*/
 	function getAllAppointmentDetails(){
 		$sql="SELECT * FROM appointment_details ORDER BY id DESC";
 		$result=$this->conn->query($sql) or die($this->conn->error);
@@ -29,6 +29,13 @@ class AppointmentDetails extends DbConnection{
 			}
 			return $data;
 		}
+	}
+	/*Get All Appointment Details count*/
+	function getAppointmentDetailsbycount(){
+		$sql="SELECT COUNT(*) as Appointments FROM appointment_details"; 
+		$result=$this->conn->query($sql) or die($this->conn->error);
+		$row=$result->fetch_assoc();
+		return $row['Appointments'];
 	}
 
 	/*Delete Appointment Details*/

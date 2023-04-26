@@ -90,7 +90,7 @@ include_once '../model/AppointmentDetailsModel.php';
                         }else{
                             $i=1;
                         foreach ($AppointmentDetails as $key => $value) {
-                    ?>
+                      ?>
                       <tr>
                         <td><?=$i;?>.</td>
                         <td><?=$value['name'];?></td>
@@ -102,11 +102,11 @@ include_once '../model/AppointmentDetailsModel.php';
                             title="Delete Appointment Details" onclick="deleteAppointmentDetails(this);"><i
                               class="fas fa-trash-alt"></i></button></td>
                       </tr>
-                      <?php
+                        <?php
                         $i++;
-                      }
-                    }
-                    ?>
+                        }
+                        }
+                        ?>
 
                     </tbody>
 
@@ -130,11 +130,6 @@ include_once '../model/AppointmentDetailsModel.php';
     ?>
     <!-- /.control-sidebar -->
   </div>
-  <!-- ./wrapper -->
-  <!-- jQuery -->
-
-  <!-- Bootstrap 4 -->
-  <!-- <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script> -->
   <!-- DataTables  & Plugins -->
   <script src="plugins/datatables/jquery.dataTables.min.js"></script>
   <script src="plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
@@ -151,30 +146,30 @@ include_once '../model/AppointmentDetailsModel.php';
     });
 
     function deleteAppointmentDetails(id) {
-            var id = $(id).attr("data-Id");
-            //alert(oldImg);
-            var cnfrm = confirm(
-                "Are you sure you want to delete this Details..?\nNote:- After deleting you can not retrive this Appointment details."
-            );
-            if (cnfrm) {
-                $.ajax({
-                    url: "controller/AppointmentDetailsController.php",
-                    type: 'POST',
-                    data: {
-                        id: id,
-                        action: "deleteAppointmentDetails"
-                    },
-                    success: function (response) {
-                        //alert(response);
-                        var dataRes = JSON.parse(response);
-                        alert(dataRes.message);
-                        if (dataRes.statusCode == 200) {
-                            location.reload();
-                        }
-                    }
-                });
+      var id = $(id).attr("data-Id");
+      //alert(oldImg);
+      var cnfrm = confirm(
+        "Are you sure you want to delete this Details..?\nNote:- After deleting you can not retrive this Appointment details."
+      );
+      if (cnfrm) {
+        $.ajax({
+          url: "controller/AppointmentDetailsController.php",
+          type: 'POST',
+          data: {
+            id: id,
+            action: "deleteAppointmentDetails"
+          },
+          success: function (response) {
+            //alert(response);
+            var dataRes = JSON.parse(response);
+            alert(dataRes.message);
+            if (dataRes.statusCode == 200) {
+              location.reload();
             }
-        }
+          }
+        });
+      }
+    }
   </script>
 </body>
 

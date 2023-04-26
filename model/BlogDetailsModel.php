@@ -26,6 +26,15 @@ class BlogDetails extends DbConnection{
 			return $data;
 		}
 	}
+
+	/*Get All Blog Details count*/
+	function getBlogDetailsbycount(){
+		$sql="SELECT COUNT(*) as blogs FROM blog_details"; 
+		$result=$this->conn->query($sql) or die($this->conn->error);
+		$row=$result->fetch_assoc();
+		return $row['blogs'];
+	}
+
 	//Get Blog Details As Per  Id
 	function getBlogDetailsAsPerId($id){
 		$sql="SELECT * FROM blog_details WHERE blog_id=$id";
